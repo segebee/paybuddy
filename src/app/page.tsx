@@ -416,7 +416,7 @@ const Cta = () => {
   );
 };
 
-export function Footer() {
+function Footer() {
   const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
   const legal = ["Terms", "Privacy", "Legal"];
   return (

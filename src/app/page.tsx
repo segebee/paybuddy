@@ -319,11 +319,13 @@ const Benefits = (props: any) => {
             </div>
 
             <div className="w-full mt-5">
-              {data.bullets.map((item, index) => (
-                <Benefit key={index} title={item.title} icon={item.icon}>
-                  {item.desc}
-                </Benefit>
-              ))}
+              {data.bullets.map(
+                (item: { title: any; icon: any; desc: any }, index: any) => (
+                  <Benefit key={index} title={item.title} icon={item.icon}>
+                    {item.desc}
+                  </Benefit>
+                )
+              )}
             </div>
           </div>
         </div>

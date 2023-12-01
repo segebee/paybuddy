@@ -5,7 +5,7 @@ import Link from "next/link";
 import { benefitOne, benefitTwo } from "./utils";
 
 const Navbar = () => {
-  const navigation = ["About", "Company", "Blog"];
+  const navigation = ["About", "Company", "Blog", "Built on Base"];
 
   return (
     <div className="w-full">
